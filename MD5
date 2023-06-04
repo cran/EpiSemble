@@ -1,8 +1,8 @@
-5d6085fe49ea6b1575ac99aee566c3fd *DESCRIPTION
+ead330ccc8bb86612fed6a12bfc641f4 *DESCRIPTION
 81abf045ef3d9226336db36ab2326d6a *NAMESPACE
 9994ceb04187458e2ab90723e8ba8b5f *R/ImpFeatures.R
-51974f0d25f16e97f9e469c5566f51b3 *R/epiPred.R
-238f0018f41ad467d99e878a5ad12048 *inst/exdata/arabidopsis.fasta
+ee655c2c375c2e1ed28a269977ceae51 *R/epiPred.R
+7919691168678d647bff0b0c3dcabae1 *inst/exdata/arabidopsis.fasta
 ef36ba9644cb221015ebcd8d4d3b2e7e *inst/exdata/rice.fasta
 2b2ae34ba011e27404de11fab49a569d *inst/exdata/test.fasta
 160f3b7eff2944fbeda28e8a381389eb *man/ImpFeatures.Rd

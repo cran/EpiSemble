@@ -2,7 +2,7 @@ Package: EpiSemble
 Type: Package
 Title: Ensemble Based Machine Learning Approach for Predicting
         Methylation States
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person(" Dipro", "Sinha", role = c("aut","cre"), email = "diprosinha@gmail.com"),
     person("Sunil", "Archak", role = "aut", email = "sunil.archak@gmail.com"),
     person("Dwijesh Chandra", "Mishra", role = "aut", email = "dwij.mishra@gmail.com"),
@@ -23,6 +23,6 @@ Imports: stats, devtools, tidyverse, seqinr, Biostrings,
         parallel, e1071, caret, randomForest, gbm, foreach, ftrCOOL,
         iterators
 NeedsCompilation: no
-Packaged: 2022-08-20 12:15:24 UTC; YEASIN
+Packaged: 2023-06-02 16:06:43 UTC; YEASIN
 Repository: CRAN
-Date/Publication: 2022-08-22 15:00:05 UTC
+Date/Publication: 2023-06-04 14:20:02 UTC

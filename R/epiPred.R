@@ -383,7 +383,7 @@ epiPred<- function(FastaData,Species){
   test_data_input<-impfnc$Test
 
   ############### Modelling ###########
-  cl <- makeCluster(16) # use 16 workers
+  cl <- makeCluster(2) # use 2 workers
   registerDoParallel(cl) # register the parallel backen
   ##############Supprot Vector Machine#########
   # Fit trees in parallel and compute predictions on the test set
@@ -481,6 +481,7 @@ epiPred<- function(FastaData,Species){
   temp_final2<-(ifelse(temp_final1==2,'Methylated','Non Methylated'))
   colnames(temp_final2)<- "Status"
   MethStatus<-cbind(Sequence=test_data_input$Sequence,temp_final2)
+  stopCluster(cl)
   return(MethStatus)
 
 }
